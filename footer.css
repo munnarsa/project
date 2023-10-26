@@ -1,0 +1,397 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box{
+	height: 400px;
+	width: 100%;
+	background: lightcoral;
+}
+.box h1{
+	font-size: 90px;
+	font-family:  inter tight,sans-serif;
+	font-weight: 700;
+	margin-left: 30px;
+	position: relative;
+	top: 80px;
+}
+.box div{
+	height: 80px;
+	width: 20%;
+	background-color: white;
+	float: left;
+	margin-right: 30px;
+	margin-top: 150px;
+	border-radius: 60px;
+	border: 2px solid black;
+	margin-left: 20px;
+}
+.box div i{
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 0px;
+	visibility: hidden;
+}
+.box div:hover i{
+	visibility: visible;
+	transform: translateX(10px);
+margin-right: 10px;
+}
+.box div h3{
+	font-size: 43px;
+	margin-left: 60px;
+	margin-top: -50px;
+	font-weight: 300px;
+}
+.box div:hover h3{
+	transform: translateX(20px);
+}
+.down{
+	height: 800px;
+	width: 100%;
+	background: black;
+
+}
+.down .dow1{
+	height: 50px;
+	width: 200px;
+	background-color: gray;
+	margin-right: 50px;
+	margin-left: 20px;
+	float: right;
+	position: relative;
+	bottom: 290px;
+	right: 490px;
+	border: 2px solid gray;
+}
+.down .dow1:hover, .dow2:hover, .dow3:hover, .dow4:hover{
+	border: 2px solid #3ec528;
+	color: white;
+}
+.down .dow1 pre:hover, .dow2pre:hover, .dow3 pre:hover, .dow4 pre:hover{
+	color: white;
+	
+} 
+
+.down .dow2{
+height: 50px;
+	width: 170px;
+	background-color: gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: right;
+	margin-right: 50px;
+	position: relative;
+	bottom: 310px;
+	right: 35px;
+}
+.down .dow3{
+height: 50px;
+	width: 150px;
+	background-color: gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: right;
+	position: relative;
+	bottom: 310px;
+	left: 320px;
+}
+.down .dow4{
+height: 50px;
+	width: 110px;
+	background-color: gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: right;
+	position: relative;
+	left: 615px;
+	bottom: 310px;
+}
+.down .dow5{
+height: 50px;
+	width: 360px;
+	background-color: gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: right;
+	position: relative;
+	left: 790px;
+	bottom: 230px;
+}
+.down .dow6{
+height: 50px;
+	width: 340px;
+	background-color: gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: right;
+	position: relative;
+	right: 400px;
+	bottom: 300px;
+}
+/*.down .dow7{
+height: 120px;
+	width: 720px;
+	background-color: gray;
+	margin-top: 20px;
+	margin-left: 20px;
+	
+	position: relative;
+	left: 620px;
+	bottom: 140px;
+}*/
+.down p{
+	color: white;
+	font-size: 19px;
+	margin-left: 630px;
+	position: relative;
+	bottom: 350px;
+	margin-right: 20px;
+}
+.down h1{
+	color: white;
+	font-family:  inter tight,sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	margin-left: 635px;
+	position: relative;
+bottom: 300px;
+}
+.down img{
+	position: relative;
+	left: 250px;
+	top: 80px;
+}
+.down h3{
+	color: white;
+font-size: 30px;
+font-family:Arial ;
+font-weight: 700;
+margin-left: 100px;
+position: relative;
+top: 90px;
+}
+#line{
+	border: 1px solid gray;
+	margin-left: 80px;
+	margin-right: 1100px;
+	position: relative;
+	top: 100px;
+}
+.down h2{
+	color: white;
+	font-weight: 700;
+	font-size: 80px;
+	position: relative;
+	left: 60px;
+	top: 80px;
+}
+.down h4{
+	color: #3ec528;
+	font-weight: 700;
+	font-size: 80px;
+	position: relative;
+	left: 60px;
+	top: 80px;
+}
+.down .dow5 input{
+	padding: 10px 90px;
+	background-color: gray;
+	border-collapse: collapse;
+}
+input::placeholder{
+	color: white;
+	margin-left: 20px;
+}
+.down .dow6 input{
+	padding: 10px 76px;
+	background-color: gray;
+
+}
+.down .dow7 input{
+	padding: 60px 270px;
+	padding-bottom: 20px;
+	position: relative;
+	left: 640px;
+	bottom: 200px;
+	background-color: gray;
+}
+.down .dow7 input::placeholder{
+	color: white;
+	right: 200px;
+	position: relative;
+	bottom: 50px;
+}
+.down .dow1 pre{
+	color: lightgrey;
+	font-size: 18px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+.down .dow2 pre{
+	color: lightgrey;
+	font-size: 18px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+.down .dow3 pre{
+	color: lightgrey;
+	font-size: 18px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+.down .dow4 pre{
+	color:lightgrey;
+	font-size: 18px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+.down h5{
+	color: white;
+	border: 2px solid #3ec528;
+	margin-left: 350px;
+	margin-right: 800px;
+	text-align: center;
+	position: relative;
+	bottom: 150px;
+	left: 300px;
+	padding: 25px 20px;
+	border-radius: 40px;
+	font-size: 20px;
+}
+.down h5:hover{
+	transform:scale(1.1);
+}
+.move{
+	height: 380px;
+	width: 100%;
+	background-color:rgb(44,44,64);
+}
+.move h1{
+	color: white;
+	font-size: 170px;
+	font-weight: 700;
+	margin-top: -20px;
+}
+.move img{
+	height: 130px;
+	margin-top: -20px;
+}
+.move #line1{
+	border: 1px solid gray;
+	position: relative;
+	bottom: 25px;
+}
+.move .one img{
+	height: 40px;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+.move ul{
+	color: white;
+	text-align: center;
+	list-style: none;
+	margin-top: -80px;
+}
+.move ul li:hover{
+/*	text-decoration: underline;*/
+	transform: translatey(2.2px);
+	font-weight: 800;
+	border-bottom: 2px solid white;
+}
+.move ul li{
+	display: inline;
+	margin-left: 22px;
+
+}
+.move h4{
+	color: white;
+	font-size: 18px;
+	margin-left: 530px;
+	margin-top: 70px;
+}
+.move h5{
+	color: white;
+	font-size: 18px;
+	margin-left: 680px;
+	margin-top: -30px;
+}
+.move h4:hover, .move h5:hover {
+	transform: translatey(2.2px);
+	font-weight: 800;
+	text-decoration: underline;
+}
+.move #btn{
+	float: right;
+	margin-right: 300px;
+	padding: 6px 30px;
+	font-size: 16px;
+	color: white;
+	border-radius: 30px;
+	background: black;
+	margin-top: -130px;
+border: none;
+border: 2px solid #3ec528;
+}
+.move #btn:hover, #btn1:hover{
+	transform: skew(10deg);
+	font-variant: ;
+}
+.move #btn1{
+	float: right;
+	margin-right: 70px;
+	padding: 6px 30px;
+	font-size: 16px;
+	color: white;
+	border-radius: 30px;
+	background: black;
+	margin-top: -130px;
+border: none;
+border: 2px solid gray;
+}
+.move p{
+	float: right;
+	color: lightgrey;
+	font-weight: 200;
+	margin-right: 30px;
+	margin-top: -30px;
+}
+.move .up i{
+	font-size: 20px;
+	position: relative;
+	bottom: 100px;
+	color: white;
+	margin-left: 1310px;
+	border: 3px solid #3ec528;
+	border-radius: 50%;
+	padding: 10px 16px;
+
+}
+
+
+.copy{
+	height: 900px;
+	width: 100%;
+	background-color: lightpink;
+}
+.copy h1{
+	font-weight: 700;
+	font-size: 60px;
+	margin-left: 60px;
+	padding-top: 70px;
+}
+.copy h5{
+	margin-left: 60px;
+	margin-top: 40px;
+}
+.copy img{
+	margin-left: 60px;
+	margin-top: 40px;
+	width: 100vh auto;
+}
